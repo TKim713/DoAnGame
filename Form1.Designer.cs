@@ -28,650 +28,692 @@ namespace DoAnGame
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.txtScore = new System.Windows.Forms.Label();
-            this.GameTimer = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.key = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.player = new System.Windows.Forms.PictureBox();
-            this.door = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.background = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.key)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            txtScore = new Label();
+            GameTimer = new System.Windows.Forms.Timer(components);
+            pictureBox32 = new PictureBox();
+            pictureBox34 = new PictureBox();
+            pictureBox35 = new PictureBox();
+            pictureBox31 = new PictureBox();
+            pictureBox33 = new PictureBox();
+            pictureBox30 = new PictureBox();
+            pictureBox28 = new PictureBox();
+            pictureBox27 = new PictureBox();
+            pictureBox26 = new PictureBox();
+            pictureBox25 = new PictureBox();
+            pictureBox24 = new PictureBox();
+            pictureBox23 = new PictureBox();
+            pictureBox22 = new PictureBox();
+            pictureBox21 = new PictureBox();
+            pictureBox20 = new PictureBox();
+            pictureBox19 = new PictureBox();
+            pictureBox18 = new PictureBox();
+            pictureBox17 = new PictureBox();
+            pictureBox16 = new PictureBox();
+            pictureBox15 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            key = new PictureBox();
+            pictureBox2 = new PictureBox();
+            player = new PictureBox();
+            door = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox11 = new PictureBox();
+            pictureBox10 = new PictureBox();
+            pictureBox8 = new PictureBox();
+            pictureBox7 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            background = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)key).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)door).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)background).BeginInit();
+            SuspendLayout();
             // 
             // txtScore
             // 
-            this.txtScore.AutoSize = true;
-            this.txtScore.BackColor = System.Drawing.Color.Transparent;
-            this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtScore.Location = new System.Drawing.Point(715, 0);
-            this.txtScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(94, 25);
-            this.txtScore.TabIndex = 5;
-            this.txtScore.Text = "Score: 0";
+            txtScore.AutoSize = true;
+            txtScore.BackColor = Color.Transparent;
+            txtScore.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            txtScore.Location = new Point(626, 0);
+            txtScore.Margin = new Padding(4, 0, 4, 0);
+            txtScore.Name = "txtScore";
+            txtScore.Size = new Size(76, 20);
+            txtScore.TabIndex = 5;
+            txtScore.Text = "Score: 0";
             // 
             // GameTimer
             // 
-            this.GameTimer.Enabled = true;
-            this.GameTimer.Interval = 20;
-            this.GameTimer.Tick += new System.EventHandler(this.MainTimerEvent);
+            GameTimer.Enabled = true;
+            GameTimer.Interval = 20;
+            GameTimer.Tick += MainTimerEvent;
             // 
             // pictureBox32
             // 
-            this.pictureBox32.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox32.Location = new System.Drawing.Point(1824, 460);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 4;
-            this.pictureBox32.TabStop = false;
-            this.pictureBox32.Tag = "coin";
+            pictureBox32.Image = Properties.Resources.coin;
+            pictureBox32.Location = new Point(1522, 279);
+            pictureBox32.Margin = new Padding(4);
+            pictureBox32.Name = "pictureBox32";
+            pictureBox32.Size = new Size(29, 29);
+            pictureBox32.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox32.TabIndex = 4;
+            pictureBox32.TabStop = false;
+            pictureBox32.Tag = "coin";
             // 
             // pictureBox34
             // 
-            this.pictureBox34.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox34.Location = new System.Drawing.Point(1789, 422);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox34.TabIndex = 4;
-            this.pictureBox34.TabStop = false;
-            this.pictureBox34.Tag = "coin";
+            pictureBox34.Image = Properties.Resources.coin;
+            pictureBox34.Location = new Point(1492, 242);
+            pictureBox34.Margin = new Padding(4);
+            pictureBox34.Name = "pictureBox34";
+            pictureBox34.Size = new Size(29, 29);
+            pictureBox34.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox34.TabIndex = 4;
+            pictureBox34.TabStop = false;
+            pictureBox34.Tag = "coin";
             // 
             // pictureBox35
             // 
-            this.pictureBox35.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox35.Location = new System.Drawing.Point(1767, 384);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox35.TabIndex = 4;
-            this.pictureBox35.TabStop = false;
-            this.pictureBox35.Tag = "coin";
+            pictureBox35.Image = Properties.Resources.coin;
+            pictureBox35.Location = new Point(1470, 206);
+            pictureBox35.Margin = new Padding(4);
+            pictureBox35.Name = "pictureBox35";
+            pictureBox35.Size = new Size(29, 29);
+            pictureBox35.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox35.TabIndex = 4;
+            pictureBox35.TabStop = false;
+            pictureBox35.Tag = "coin";
             // 
             // pictureBox31
             // 
-            this.pictureBox31.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox31.Location = new System.Drawing.Point(1767, 460);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 4;
-            this.pictureBox31.TabStop = false;
-            this.pictureBox31.Tag = "coin";
+            pictureBox31.Image = Properties.Resources.coin;
+            pictureBox31.Location = new Point(1470, 279);
+            pictureBox31.Margin = new Padding(4);
+            pictureBox31.Name = "pictureBox31";
+            pictureBox31.Size = new Size(29, 29);
+            pictureBox31.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox31.TabIndex = 4;
+            pictureBox31.TabStop = false;
+            pictureBox31.Tag = "coin";
             // 
             // pictureBox33
             // 
-            this.pictureBox33.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox33.Location = new System.Drawing.Point(1741, 422);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox33.TabIndex = 4;
-            this.pictureBox33.TabStop = false;
-            this.pictureBox33.Tag = "coin";
+            pictureBox33.Image = Properties.Resources.coin;
+            pictureBox33.Location = new Point(1446, 242);
+            pictureBox33.Margin = new Padding(4);
+            pictureBox33.Name = "pictureBox33";
+            pictureBox33.Size = new Size(29, 29);
+            pictureBox33.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox33.TabIndex = 4;
+            pictureBox33.TabStop = false;
+            pictureBox33.Tag = "coin";
             // 
             // pictureBox30
             // 
-            this.pictureBox30.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox30.Location = new System.Drawing.Point(1719, 460);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox30.TabIndex = 4;
-            this.pictureBox30.TabStop = false;
-            this.pictureBox30.Tag = "coin";
+            pictureBox30.Image = Properties.Resources.coin;
+            pictureBox30.Location = new Point(1418, 279);
+            pictureBox30.Margin = new Padding(4);
+            pictureBox30.Name = "pictureBox30";
+            pictureBox30.Size = new Size(29, 29);
+            pictureBox30.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox30.TabIndex = 4;
+            pictureBox30.TabStop = false;
+            pictureBox30.Tag = "coin";
             // 
             // pictureBox28
             // 
-            this.pictureBox28.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox28.Location = new System.Drawing.Point(1872, 503);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 4;
-            this.pictureBox28.TabStop = false;
-            this.pictureBox28.Tag = "coin";
+            pictureBox28.Image = Properties.Resources.coin;
+            pictureBox28.Location = new Point(1558, 319);
+            pictureBox28.Margin = new Padding(4);
+            pictureBox28.Name = "pictureBox28";
+            pictureBox28.Size = new Size(29, 29);
+            pictureBox28.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox28.TabIndex = 4;
+            pictureBox28.TabStop = false;
+            pictureBox28.Tag = "coin";
             // 
             // pictureBox27
             // 
-            this.pictureBox27.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox27.Location = new System.Drawing.Point(1824, 503);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 4;
-            this.pictureBox27.TabStop = false;
-            this.pictureBox27.Tag = "coin";
+            pictureBox27.Image = Properties.Resources.coin;
+            pictureBox27.Location = new Point(1507, 319);
+            pictureBox27.Margin = new Padding(4);
+            pictureBox27.Name = "pictureBox27";
+            pictureBox27.Size = new Size(29, 29);
+            pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox27.TabIndex = 4;
+            pictureBox27.TabStop = false;
+            pictureBox27.Tag = "coin";
             // 
             // pictureBox26
             // 
-            this.pictureBox26.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox26.Location = new System.Drawing.Point(1767, 503);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 4;
-            this.pictureBox26.TabStop = false;
-            this.pictureBox26.Tag = "coin";
+            pictureBox26.Image = Properties.Resources.coin;
+            pictureBox26.Location = new Point(1470, 316);
+            pictureBox26.Margin = new Padding(4);
+            pictureBox26.Name = "pictureBox26";
+            pictureBox26.Size = new Size(29, 29);
+            pictureBox26.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox26.TabIndex = 4;
+            pictureBox26.TabStop = false;
+            pictureBox26.Tag = "coin";
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox25.Location = new System.Drawing.Point(1717, 503);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 4;
-            this.pictureBox25.TabStop = false;
-            this.pictureBox25.Tag = "coin";
+            pictureBox25.Image = Properties.Resources.coin;
+            pictureBox25.Location = new Point(1432, 319);
+            pictureBox25.Margin = new Padding(4);
+            pictureBox25.Name = "pictureBox25";
+            pictureBox25.Size = new Size(29, 29);
+            pictureBox25.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox25.TabIndex = 4;
+            pictureBox25.TabStop = false;
+            pictureBox25.Tag = "coin";
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox24.Location = new System.Drawing.Point(1660, 503);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 4;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Tag = "coin";
+            pictureBox24.Image = Properties.Resources.coin;
+            pictureBox24.Location = new Point(1378, 319);
+            pictureBox24.Margin = new Padding(4);
+            pictureBox24.Name = "pictureBox24";
+            pictureBox24.Size = new Size(29, 29);
+            pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox24.TabIndex = 4;
+            pictureBox24.TabStop = false;
+            pictureBox24.Tag = "coin";
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox23.Location = new System.Drawing.Point(2125, 182);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 4;
-            this.pictureBox23.TabStop = false;
-            this.pictureBox23.Tag = "coin";
+            pictureBox23.Image = Properties.Resources.coin;
+            pictureBox23.Location = new Point(1859, 171);
+            pictureBox23.Margin = new Padding(4);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(29, 29);
+            pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox23.TabIndex = 4;
+            pictureBox23.TabStop = false;
+            pictureBox23.Tag = "coin";
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox22.Location = new System.Drawing.Point(2068, 182);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 4;
-            this.pictureBox22.TabStop = false;
-            this.pictureBox22.Tag = "coin";
+            pictureBox22.Image = Properties.Resources.coin;
+            pictureBox22.Location = new Point(1810, 171);
+            pictureBox22.Margin = new Padding(4);
+            pictureBox22.Name = "pictureBox22";
+            pictureBox22.Size = new Size(29, 29);
+            pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox22.TabIndex = 4;
+            pictureBox22.TabStop = false;
+            pictureBox22.Tag = "coin";
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox21.Location = new System.Drawing.Point(1740, 239);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 4;
-            this.pictureBox21.TabStop = false;
-            this.pictureBox21.Tag = "coin";
+            pictureBox21.Image = Properties.Resources.coin;
+            pictureBox21.Location = new Point(1692, 98);
+            pictureBox21.Margin = new Padding(4);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new Size(29, 29);
+            pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox21.TabIndex = 4;
+            pictureBox21.TabStop = false;
+            pictureBox21.Tag = "coin";
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox20.Location = new System.Drawing.Point(1683, 239);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 4;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Tag = "coin";
+            pictureBox20.Image = Properties.Resources.coin;
+            pictureBox20.Location = new Point(1617, 98);
+            pictureBox20.Margin = new Padding(4);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new Size(29, 29);
+            pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox20.TabIndex = 4;
+            pictureBox20.TabStop = false;
+            pictureBox20.Tag = "coin";
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox19.Location = new System.Drawing.Point(1507, 404);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 4;
-            this.pictureBox19.TabStop = false;
-            this.pictureBox19.Tag = "coin";
+            pictureBox19.Image = Properties.Resources.coin;
+            pictureBox19.Location = new Point(1306, 135);
+            pictureBox19.Margin = new Padding(4);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(29, 29);
+            pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox19.TabIndex = 4;
+            pictureBox19.TabStop = false;
+            pictureBox19.Tag = "coin";
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox18.Location = new System.Drawing.Point(1449, 404);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 4;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Tag = "coin";
+            pictureBox18.Image = Properties.Resources.coin;
+            pictureBox18.Location = new Point(1238, 135);
+            pictureBox18.Margin = new Padding(4);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(29, 29);
+            pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox18.TabIndex = 4;
+            pictureBox18.TabStop = false;
+            pictureBox18.Tag = "coin";
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox17.Location = new System.Drawing.Point(1185, 277);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 4;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Tag = "coin";
+            pictureBox17.Image = Properties.Resources.coin;
+            pictureBox17.Location = new Point(952, 260);
+            pictureBox17.Margin = new Padding(4);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(29, 29);
+            pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox17.TabIndex = 4;
+            pictureBox17.TabStop = false;
+            pictureBox17.Tag = "coin";
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox16.Location = new System.Drawing.Point(1128, 277);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 4;
-            this.pictureBox16.TabStop = false;
-            this.pictureBox16.Tag = "coin";
+            pictureBox16.Image = Properties.Resources.coin;
+            pictureBox16.Location = new Point(882, 263);
+            pictureBox16.Margin = new Padding(4);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(29, 29);
+            pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox16.TabIndex = 4;
+            pictureBox16.TabStop = false;
+            pictureBox16.Tag = "coin";
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox15.Location = new System.Drawing.Point(827, 87);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 4;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Tag = "coin";
+            pictureBox15.Image = Properties.Resources.coin;
+            pictureBox15.Location = new Point(724, 82);
+            pictureBox15.Margin = new Padding(4);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(29, 29);
+            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox15.TabIndex = 4;
+            pictureBox15.TabStop = false;
+            pictureBox15.Tag = "coin";
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox14.Location = new System.Drawing.Point(769, 87);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 4;
-            this.pictureBox14.TabStop = false;
-            this.pictureBox14.Tag = "coin";
+            pictureBox14.Image = Properties.Resources.coin;
+            pictureBox14.Location = new Point(673, 82);
+            pictureBox14.Margin = new Padding(4);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(29, 29);
+            pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox14.TabIndex = 4;
+            pictureBox14.TabStop = false;
+            pictureBox14.Tag = "coin";
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox13.Location = new System.Drawing.Point(452, 219);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 4;
-            this.pictureBox13.TabStop = false;
-            this.pictureBox13.Tag = "coin";
+            pictureBox13.Image = Properties.Resources.coin;
+            pictureBox13.Location = new Point(356, 180);
+            pictureBox13.Margin = new Padding(4);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(29, 29);
+            pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox13.TabIndex = 4;
+            pictureBox13.TabStop = false;
+            pictureBox13.Tag = "coin";
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::DoAnGame.Properties.Resources.coin;
-            this.pictureBox12.Location = new System.Drawing.Point(395, 219);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 4;
-            this.pictureBox12.TabStop = false;
-            this.pictureBox12.Tag = "coin";
+            pictureBox12.Image = Properties.Resources.coin;
+            pictureBox12.Location = new Point(300, 180);
+            pictureBox12.Margin = new Padding(4);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(29, 29);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 4;
+            pictureBox12.TabStop = false;
+            pictureBox12.Tag = "coin";
             // 
             // key
             // 
-            this.key.Image = global::DoAnGame.Properties.Resources.key;
-            this.key.Location = new System.Drawing.Point(2332, 48);
-            this.key.Margin = new System.Windows.Forms.Padding(4);
-            this.key.Name = "key";
-            this.key.Size = new System.Drawing.Size(90, 47);
-            this.key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.key.TabIndex = 3;
-            this.key.TabStop = false;
-            this.key.Tag = "key";
+            key.Image = Properties.Resources.key;
+            key.Location = new Point(2040, 45);
+            key.Margin = new Padding(4);
+            key.Name = "key";
+            key.Size = new Size(90, 47);
+            key.SizeMode = PictureBoxSizeMode.AutoSize;
+            key.TabIndex = 3;
+            key.TabStop = false;
+            key.Tag = "key";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 148);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "platform";
+            pictureBox2.BackgroundImage = Properties.Resources.platform;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Location = new Point(0, 139);
+            pictureBox2.Margin = new Padding(4);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(150, 46);
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
+            pictureBox2.Tag = "platform";
             // 
             // player
             // 
-            this.player.Image = global::DoAnGame.Properties.Resources.player;
-            this.player.Location = new System.Drawing.Point(292, 395);
-            this.player.Margin = new System.Windows.Forms.Padding(4);
-            this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(54, 64);
-            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.player.TabIndex = 2;
-            this.player.TabStop = false;
-            this.player.Tag = "";
+            player.Image = Properties.Resources.player;
+            player.Location = new Point(256, 370);
+            player.Margin = new Padding(4);
+            player.Name = "player";
+            player.Size = new Size(47, 60);
+            player.SizeMode = PictureBoxSizeMode.CenterImage;
+            player.TabIndex = 2;
+            player.TabStop = false;
+            player.Tag = "";
             // 
             // door
             // 
-            this.door.Image = global::DoAnGame.Properties.Resources.door_closed;
-            this.door.Location = new System.Drawing.Point(59, 48);
-            this.door.Margin = new System.Windows.Forms.Padding(4);
-            this.door.Name = "door";
-            this.door.Size = new System.Drawing.Size(60, 90);
-            this.door.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.door.TabIndex = 2;
-            this.door.TabStop = false;
-            this.door.Tag = "door";
+            door.Image = Properties.Resources.door_closed;
+            door.Location = new Point(52, 45);
+            door.Margin = new Padding(4);
+            door.Name = "door";
+            door.Size = new Size(60, 90);
+            door.SizeMode = PictureBoxSizeMode.AutoSize;
+            door.TabIndex = 2;
+            door.TabStop = false;
+            door.Tag = "door";
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox9.Location = new System.Drawing.Point(1652, 542);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(427, 49);
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "platform";
+            pictureBox9.BackgroundImage = Properties.Resources.platform;
+            pictureBox9.Location = new Point(1306, 353);
+            pictureBox9.Margin = new Padding(4);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(374, 46);
+            pictureBox9.TabIndex = 1;
+            pictureBox9.TabStop = false;
+            pictureBox9.Tag = "platform";
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox11.Location = new System.Drawing.Point(2307, 113);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Tag = "platform";
+            pictureBox11.BackgroundImage = Properties.Resources.platform;
+            pictureBox11.Location = new Point(2019, 106);
+            pictureBox11.Margin = new Padding(4);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(150, 46);
+            pictureBox11.TabIndex = 1;
+            pictureBox11.TabStop = false;
+            pictureBox11.Tag = "platform";
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox10.Location = new System.Drawing.Point(2025, 220);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Tag = "platform";
+            pictureBox10.BackgroundImage = Properties.Resources.platform;
+            pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox10.Location = new Point(1772, 206);
+            pictureBox10.Margin = new Padding(4);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(150, 46);
+            pictureBox10.TabIndex = 1;
+            pictureBox10.TabStop = false;
+            pictureBox10.Tag = "platform";
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox8.Location = new System.Drawing.Point(1652, 278);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox8.TabIndex = 1;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Tag = "platform";
+            pictureBox8.BackgroundImage = Properties.Resources.platform;
+            pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox8.Location = new Point(1586, 135);
+            pictureBox8.Margin = new Padding(4);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(150, 46);
+            pictureBox8.TabIndex = 1;
+            pictureBox8.TabStop = false;
+            pictureBox8.Tag = "platform";
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox7.Location = new System.Drawing.Point(1409, 442);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Tag = "platform";
+            pictureBox7.BackgroundImage = Properties.Resources.platform;
+            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox7.Location = new Point(1215, 183);
+            pictureBox7.Margin = new Padding(4);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(150, 46);
+            pictureBox7.TabIndex = 1;
+            pictureBox7.TabStop = false;
+            pictureBox7.Tag = "platform";
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox6.Location = new System.Drawing.Point(1103, 315);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "platform";
+            pictureBox6.BackgroundImage = Properties.Resources.platform;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox6.Location = new Point(856, 297);
+            pictureBox6.Margin = new Padding(4);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(150, 46);
+            pictureBox6.TabIndex = 1;
+            pictureBox6.TabStop = false;
+            pictureBox6.Tag = "platform";
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox5.Location = new System.Drawing.Point(733, 126);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "platform";
+            pictureBox5.BackgroundImage = Properties.Resources.platform;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox5.Location = new Point(641, 118);
+            pictureBox5.Margin = new Padding(4);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(150, 46);
+            pictureBox5.TabIndex = 1;
+            pictureBox5.TabStop = false;
+            pictureBox5.Tag = "platform";
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox4.Location = new System.Drawing.Point(641, 395);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "platform";
+            pictureBox4.BackgroundImage = Properties.Resources.platform;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox4.Location = new Point(470, 260);
+            pictureBox4.Margin = new Padding(4);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(150, 46);
+            pictureBox4.TabIndex = 1;
+            pictureBox4.TabStop = false;
+            pictureBox4.Tag = "platform";
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox3.Location = new System.Drawing.Point(357, 258);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(171, 49);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Tag = "platform";
+            pictureBox3.BackgroundImage = Properties.Resources.platform;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.Location = new Point(256, 217);
+            pictureBox3.Margin = new Padding(4);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(150, 46);
+            pictureBox3.TabIndex = 1;
+            pictureBox3.TabStop = false;
+            pictureBox3.Tag = "platform";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::DoAnGame.Properties.Resources.platform;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 542);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(735, 49);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "platform";
+            pictureBox1.BackgroundImage = Properties.Resources.platform;
+            pictureBox1.Location = new Point(0, 438);
+            pictureBox1.Margin = new Padding(4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(643, 46);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            pictureBox1.Tag = "platform";
             // 
             // background
             // 
-            this.background.Image = global::DoAnGame.Properties.Resources.background;
-            this.background.Location = new System.Drawing.Point(-34, -36);
-            this.background.Margin = new System.Windows.Forms.Padding(4);
-            this.background.Name = "background";
-            this.background.Size = new System.Drawing.Size(2000, 480);
-            this.background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.background.TabIndex = 0;
-            this.background.TabStop = false;
+            background.Image = Properties.Resources.background;
+            background.Location = new Point(-30, -34);
+            background.Margin = new Padding(4);
+            background.Name = "background";
+            background.Size = new Size(2000, 480);
+            background.SizeMode = PictureBoxSizeMode.AutoSize;
+            background.TabIndex = 0;
+            background.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(994, 592);
-            this.Controls.Add(this.txtScore);
-            this.Controls.Add(this.pictureBox32);
-            this.Controls.Add(this.pictureBox34);
-            this.Controls.Add(this.pictureBox35);
-            this.Controls.Add(this.pictureBox31);
-            this.Controls.Add(this.pictureBox33);
-            this.Controls.Add(this.pictureBox30);
-            this.Controls.Add(this.pictureBox28);
-            this.Controls.Add(this.pictureBox27);
-            this.Controls.Add(this.pictureBox26);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.key);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.player);
-            this.Controls.Add(this.door);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.background);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
-            this.Text = "Slide Scrolling Game MOO ICT";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CloseGame);
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyIsUp);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.key)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.door)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.background)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(870, 509);
+            Controls.Add(txtScore);
+            Controls.Add(pictureBox32);
+            Controls.Add(pictureBox34);
+            Controls.Add(pictureBox35);
+            Controls.Add(pictureBox31);
+            Controls.Add(pictureBox33);
+            Controls.Add(pictureBox30);
+            Controls.Add(pictureBox28);
+            Controls.Add(pictureBox27);
+            Controls.Add(pictureBox26);
+            Controls.Add(pictureBox25);
+            Controls.Add(pictureBox24);
+            Controls.Add(pictureBox23);
+            Controls.Add(pictureBox22);
+            Controls.Add(pictureBox21);
+            Controls.Add(pictureBox20);
+            Controls.Add(pictureBox19);
+            Controls.Add(pictureBox18);
+            Controls.Add(pictureBox17);
+            Controls.Add(pictureBox16);
+            Controls.Add(pictureBox15);
+            Controls.Add(pictureBox14);
+            Controls.Add(pictureBox13);
+            Controls.Add(pictureBox12);
+            Controls.Add(key);
+            Controls.Add(pictureBox2);
+            Controls.Add(player);
+            Controls.Add(door);
+            Controls.Add(pictureBox9);
+            Controls.Add(pictureBox11);
+            Controls.Add(pictureBox10);
+            Controls.Add(pictureBox8);
+            Controls.Add(pictureBox7);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox1);
+            Controls.Add(background);
+            Margin = new Padding(4);
+            Name = "Form1";
+            Text = "Slide Scrolling Game MOO ICT";
+            FormClosed += CloseGame;
+            KeyDown += KeyIsDown;
+            KeyUp += KeyIsUp;
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)key).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)door).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)background).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private System.Windows.Forms.PictureBox background;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox door;
+        private System.Windows.Forms.PictureBox key;
+        private System.Windows.Forms.PictureBox player;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.Label txtScore;
+        private System.Windows.Forms.Timer GameTimer;
     }
 }
 

@@ -28,72 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnStart = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            button1 = new Button();
+            button2 = new Button();
+            btnStart = new Button();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Image = global::DoAnGame.Properties.Resources.High_Score_80;
-            this.button1.Location = new System.Drawing.Point(254, 308);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 72);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = false;
+            button1.BackColor = Color.White;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.Location = new Point(222, 231);
+            button1.Name = "button1";
+            button1.Size = new Size(118, 54);
+            button1.TabIndex = 3;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Image = global::DoAnGame.Properties.Resources.Quit_80;
-            this.button2.Location = new System.Drawing.Point(254, 411);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 72);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(222, 308);
+            button2.Name = "button2";
+            button2.Size = new Size(118, 54);
+            button2.TabIndex = 2;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // btnStart
             // 
-            this.btnStart.BackColor = System.Drawing.Color.White;
-            this.btnStart.Image = global::DoAnGame.Properties.Resources.Start_80;
-            this.btnStart.Location = new System.Drawing.Point(254, 198);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(136, 74);
-            this.btnStart.TabIndex = 1;
-            this.btnStart.UseVisualStyleBackColor = false;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            btnStart.BackColor = Color.White;
+            btnStart.Image = (Image)resources.GetObject("btnStart.Image");
+            btnStart.Location = new Point(222, 148);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(119, 56);
+            btnStart.TabIndex = 1;
+            btnStart.UseVisualStyleBackColor = false;
+            btnStart.Click += btnStart_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DoAnGame.Properties.Resources.background_tree2_80;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(664, 759);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = Properties.Resources.background_tree2_80;
+            pictureBox1.Location = new Point(0, 1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(581, 569);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 755);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form2";
-            this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(581, 562);
+            Controls.Add(button1);
+            Controls.Add(button2);
+            Controls.Add(btnStart);
+            Controls.Add(pictureBox1);
+            Name = "Form2";
+            Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

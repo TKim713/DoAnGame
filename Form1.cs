@@ -2,9 +2,23 @@ namespace DoAnGame
 {
     public partial class Form1 : Form
     {
+
+
+        bool goLeft, goRight, jumping, hasKey;
+
+        int jumpSpeed = 10;
+        int force = 8;
+        int score = 0;
+
+        int playerSpeed = 10;
+        int backgroundSpeed = 8;
+
+
+
         public Form1()
         {
             InitializeComponent();
+            //txtScore.Parent = background;
         }
 
         private void MainTimerEvent(object sender, EventArgs e)
@@ -136,11 +150,6 @@ namespace DoAnGame
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void CloseGame(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -177,5 +186,6 @@ namespace DoAnGame
 
 
         }
+
     }
 }
