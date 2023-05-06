@@ -303,7 +303,7 @@ namespace DoAnGame
             // pictureBox13
             // 
             pictureBox13.Image = Properties.Resources.coin;
-            pictureBox13.Location = new Point(367, 205);
+            pictureBox13.Location = new Point(360, 205);
             pictureBox13.Margin = new Padding(4, 3, 4, 3);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(29, 29);
