@@ -157,6 +157,11 @@ namespace DoAnGame
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void CloseGame(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
